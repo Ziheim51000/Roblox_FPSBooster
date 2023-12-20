@@ -1,0 +1,44 @@
+local FPSBooster = {
+    ["Options"] = {
+        ["Settings"] = {
+            ['WL_Key'] = "place-here"
+           },
+            ["UnlockFPS"] = true, --// removes the fps limit of 60
+            ['Fps_Cap'] = 0, --// 0 = unlimited, any number work
+            ['V_Sync'] = false, --// syncs with your devices HZ rate
+           },
+        ["Bullets"] = {
+            ['NoBulletDelay'] = true, --// working method
+            ['NoBulletDisplay'] = false, --// makes fired bullets invisible but your bullets still do damage (client)
+        },  ['NoRPGExplosion'] = true,
+            ['NoFlameThrowerEffect'] = true, 
+
+        ["Visuals"] = {
+            ['RemoveGraphics'] = true, --// sets terrian to plastic
+            ['RemoveEffects'] = true, --// removes flashy effects
+            ['RemoveFFlags'] = true, --// removes useless fflags for less delay and better fps
+            ['RemoveF9Console'] = true, --// removes the console, less mb usage and more fps maybe
+            ['RemoveSky'] = false, --// removes the sky
+            ['RemoveUselessParts'] = true, --// removes useless obstacles and blocks around the map
+            ['RemovePlrGuis'] = true, --// small fps boost
+            ['Fullbright'] = false, --// doesnt really do much
+            },
+        ["CustomTextures"] = {
+            ['Enabled'] = false,
+            ['TextureID'] = "Plastic", --// custom terrain material
+        },
+        ["Rendering"] = {
+            ['RenderDisance'] = 1,
+            ['SimulationDistance'] = 1,
+            ['Remove3DRender'] = true,
+        },
+        ["CPU"] = {
+            ['OptimizeCPU_Usage'] = true,
+        },
+    },
+    ["PowerHungry"] = { --// this will hugely affect your performance in a good way but has its risks
+        ['FPSBooster_1'] = true, --// makes your cpu usage go higher but damn it works well (60+fps guarenteed)
+        ['FPSBooster_2'] = false, --// less cpu usage and lesss performance, balanced (25+ fps guarenteed)
+       },
+        ['PingDecreaser_1'] = true, --// changes almost everything in the game but decreases ping massively
+        ['PingDecreaser_2'] = false, --// changes basic stuff, can reduce ping by 5-10 maybe?
